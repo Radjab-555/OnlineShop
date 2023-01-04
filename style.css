@@ -82,7 +82,7 @@ body {
     color: #fff;
 }
 /* ДО ЭТОГО КЛАССА! */
-
+    /*  ТОВАР */
 .flex-box {
     display: block;
     justify-content: flex-start;
@@ -90,6 +90,7 @@ body {
     margin-left: 20px;
     flex-basis: 200px;
     height: auto;
+    position: relative;
 }
 .text-tovar {
     color: #fff;
@@ -98,15 +99,28 @@ body {
     text-align: center;
 }
 .img-fluid {
+    flex-direction: row;
     margin-left: 20px;
     margin-top: 45px;
     width: 250px;
     height: 250px;
-    display: block;
+}
+.navbar-toggler {
+    position: absolute;
+    background: blue;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 40px;
+    padding-right: 40px;
+    font-family: 'Post No Bills Jaffna' ;
 }
 .images1 {
     color: #fff;
 }
+
 /* .images2 {
     color: #fff;
 }
