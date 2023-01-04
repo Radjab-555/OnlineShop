@@ -1,5 +1,9 @@
+* {
+    width: 100%;
+}
 .navbar {
     background-color: rgb(31, 28, 28);
+    padding-top: 10px;
 }
 
 .navbar-dark .navbar-brend{
@@ -8,48 +12,52 @@
 .navbar-dark .navbar-brend:hover {
     color: antiquewhite;
 }
+
 .navbar-brend {
     justify-content: center;
+    margin-left: 90px;
+    font-family: 'Post No Bills Jaffna';
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    width: auto;
+    text-decoration: none;
 }
 
-/* .container-display {
-    display: inline;
-    justify-content: center;
-    flex-direction: row;
-    
-} */
-
-.navbar-instagram {
-    color: #fff;
-    /* justify-content: center; */
-}
-.navbar-instagram:hover {
-    color: crimson;
-}
-.navbar-messendger {
-    color: #fff;
-    margin: 8px;
-}
-.navbar-messendger:hover {
-    color: rgb(78, 118, 225);
-}
 .navbar-tovar {
+    width: auto;
+    display: inline;
     color: #fff;
 }
 .navbar-tovar:hover {
     color: burlywood;
 }
+body {
+    background-color: black;
+}
 
+/* ИСПРАВИТЬ BORDER */
+.row {
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    height: 300px;
+    padding-top: 100px;
+    flex-basis: 100px;
+    background: rgba(0, 0, 0, .3);
+    /* width: 300px; */
+}
 #hero {
     width: 100%;
     height: 100vh;
-    background: url(https://cs5.livemaster.ru/storage/5e/14/73010a67e0c4afdca122e39889md--sumki-i-aksessuary-kozhanyj-koshelek-klatch.jpg);
+    background: url(./images/BMNR4724.png);
     background-size: cover;
     position: relative;
+    object-fit: scale-down;
 }
 #hero::before {
     content: "";
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -66,5 +74,42 @@
     font-weight: 700;
     line-height: 64px;
     color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Post No Bills Jaffna';
 }
+ h2 {
+    padding-top: 30px;
+    font-family: 'Post No Bills Jaffna';
+    color: #fff;
+}
+/* ДО ЭТОГО КЛАССА! */
+
+.flex-box {
+    display: block;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-basis: 200px;
+    height: auto;
+}
+.text-tovar {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Post No Bills Jaffna' ;
+    text-align: center;
+}
+.img-fluid {
+    margin-left: 20px;
+    margin-top: 45px;
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+.images1 {
+    color: #fff;
+}
+/* .images2 {
+    color: #fff;
+}
+.images3 {
+color: #fff;
+} */
