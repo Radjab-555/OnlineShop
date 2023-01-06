@@ -1,5 +1,5 @@
 * {
-    width: 100%;
+    max-width: 100%;
 }
 .navbar {
     background-color: rgb(31, 28, 28);
@@ -15,7 +15,7 @@
 
 .navbar-brend {
     justify-content: center;
-    margin-left: 90px;
+    /* margin-left: 90px; */
     font-family: 'Post No Bills Jaffna';
     /* font-style: normal; */
     font-weight: 700;
@@ -26,7 +26,7 @@
 }
 
 .navbar-tovar {
-    width: auto;
+    margin-left: 1000px;
     display: inline;
     color: #fff;
 }
@@ -40,12 +40,9 @@ body {
 /* ИСПРАВИТЬ BORDER */
 .row {
     box-sizing: border-box;
-    border: 3px solid #fff;
     height: 300px;
-    padding-top: 100px;
+    padding-top: 50px;
     flex-basis: 100px;
-    background: rgba(0, 0, 0, .3);
-    /* width: 300px; */
 }
 #hero {
     width: 100%;
@@ -54,6 +51,8 @@ body {
     background-size: cover;
     position: relative;
     object-fit: scale-down;
+    margin:-18px 0 17px -35px;
+    text-decoration: 4px underline;
 }
 #hero::before {
     content: "";
@@ -67,6 +66,13 @@ body {
 #hero .container {
     position: relative;
     padding-top: 75px;
+}
+.border-block {
+    width: auto;
+    border: 3px solid #fff;
+    background: rgba(0, 0, 0, .3);
+    padding-top: 40px;
+
 }
 #hero h1 {
     margin: 0;
@@ -83,47 +89,61 @@ body {
 }
 /* ДО ЭТОГО КЛАССА! */
     /*  ТОВАР */
-.flex-box {
-    display: block;
-    justify-content: flex-start;
-    margin-top: 20px;
-    margin-left: 20px;
-    flex-basis: 200px;
-    height: auto;
-    position: relative;
+.about {
+    margin: 1px 673px 12px 0px;
 }
-.text-tovar {
+.text {
     color: #fff;
     font-size: 30px;
     font-family: 'Post No Bills Jaffna' ;
     text-align: center;
 }
-.img-fluid {
-    flex-direction: row;
-    margin-left: 20px;
-    margin-top: 45px;
+.conta {
+    margin: 0px -15px 70px 0px;
+    display: inline;
+    margin-top: 20px; 
+}
+.row-row {        
+    padding: 0px 15px;
+    top: 50px;
     width: 250px;
     height: 250px;
+    display: inline-block;
+ }
+.flex-box {
+    margin: 0px 0px 20px 350px;
+    overflow: hidden;
+    display: inline;
 }
-.navbar-toggler {
+.card-image {
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 200px;
+    width: 200px;
+}
+.img-fluid {
     position: absolute;
+    margin-left: 20px;
+    margin-top: 45px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.text-tovar {
+    color: #fff;
+    margin: 245px 0 0 20px;
+    position: absolute;
+}
+.navbar-toggler-icon{
     background: blue;
     color: #fff;
-    width: 200px;
+    width: 162px;
     height: 30px;
     border-radius: 15px;
     text-align: center;
-    margin-left: 40px;
-    padding-right: 40px;
-    font-family: 'Post No Bills Jaffna' ;
+    margin: 268px 0px 0px 6px;
+    font-family: 'Post No Bills Jaffna';
+    padding-top: inherit;
 }
-.images1 {
-    color: #fff;
-}
-
-/* .images2 {
-    color: #fff;
-}
-.images3 {
-color: #fff;
-} */
