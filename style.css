@@ -35,43 +35,37 @@ h1 {
 
 .navbar-brend {
     justify-content: center;
-    /* margin-left: 90px; */
     font-family: 'Post No Bills Jaffna';
-    /* font-style: normal; */
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     width: auto;
     text-decoration: none;
-    position: relative;
 }
 
 .navbar-tovar {
-    position: absolute;
-    margin-left: 1000px;
     display: inline;
     color: #fff;
-    justify-content: center;
 }
 .navbar-tovar:hover {
     color: burlywood;
 }
 body {
-    background-color: black;
+    background-color: rgb(20, 14, 14);
 }
 
-/* ШАПКА САЙТА */
+                                   /* ШАПКА САЙТА */
 .row {
     box-sizing: border-box;
     height: 300px;
     padding-top: 50px;
     flex-basis: 100px;
-    /* margin: 0 0 0 0; */
 }
 #hero {
     max-width: 100%;
+    overflow: 100%;
     height: 100vh;
-    background: url(./images/BMNR4724.png);
+    background: url(./images/IMG_0906.JPG);
     background-size: cover;
     position: relative;
     object-fit: scale-down;
@@ -82,10 +76,8 @@ body {
     content: "";
     background: rgba(0, 0, 0, 0);
     position: absolute;
-    /* bottom: 0; */
     top: 0;
     left: 0;
-    /* right: 0; */
 }
 #hero .container {
     position: relative;
@@ -106,30 +98,33 @@ body {
     line-height: 64px;
     color: #fff;
     font-family: 'Post No Bills Jaffna';
+    border-bottom: 3px solid;
 }
  h2 {
     padding-top: 30px;
     font-family: 'Post No Bills Jaffna';
     color: #fff;
 }
-    /*  КОНТЕЙНЕР10-1 */
+
+                                    /*  КОНТЕЙНЕР 1 */
 .about {
-    margin:  0px 0px 70px 0px;
+    margin:  0px 0 90px 0px;
     display: flex;
     width: 100%;
+    position: relative;
+    justify-content: center;
 }
 .text {
     color: #fff;
     font-size: 30px;
     font-family: 'Post No Bills Jaffna' ;
-    text-align: center;
 }
 .conta {
-    margin: 0px 0px 70px 0px;
+    margin: 0px 0px 0px 20px;
     display: inline;
-    justify-content: center;
     max-width: 100%; 
     grid-gap: 20px;
+    justify-content: center;
 }
 .row-row {        
     padding: 13px 15px;
@@ -137,10 +132,9 @@ body {
     width: 250px;
     height: 250px;
     display: inline-block;  
-    margin: 35px -34px 0px -8px;
+    margin: 40px 0px 0px 0px;
  }
 .flex-box {
-    /* margin: 0px 0px 20px 350px; */
     overflow: hidden;
     display: inline;
 }
@@ -150,7 +144,7 @@ body {
     justify-content: flex-start;
     height: 200px;
     width: 200px;
-    box-shadow: 0 0 5px 1px #8295bd;
+    box-shadow: 0 0 10px 6px #3f4146;
 }
 .img-fluid {
     position: absolute;
@@ -165,9 +159,6 @@ body {
     margin: 204px 0 0 54px;
     position: absolute;
 }
-/* .navbar-toggler {
-    background: #1d49aa;
-} */
 .navbar-toggler-icon{
     position: absolute;
     outline: none;
