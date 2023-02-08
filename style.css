@@ -158,9 +158,9 @@ body {
 }
 .navbar-toggler-icon{
     outline: none;
-    box-shadow: 0 0 5px 1px #8295bd;
-    background-color:rgb(36, 25, 25);
-    color: #fff;
+    box-shadow: 0 0 5px 1px #3a4253;
+    background: rgb(25, 27, 29);
+    color: rgb(224, 224, 224);
     width: 162px;
     height: 30px;
     border-radius: 15px;
