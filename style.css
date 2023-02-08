@@ -121,10 +121,9 @@ body {
     font-family: 'Post No Bills Jaffna' ;
 }
 .conta {
-    margin: 0px 0px 0px 20px;
     display: inline;
     max-width: 100%; 
-    /* justify-content: center; */
+    text-align: center;
 }
 .row-row {        
     padding: 13px 15px;
@@ -147,7 +146,6 @@ body {
     box-shadow: 0 0 10px 6px #3f4146;
 }
 .img-fluid {
-    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -155,12 +153,10 @@ body {
     min-width: 190px;
 }
 .text-tovar {
+    text-align: center;
     color: #fff;
-    margin: 204px 0 0 54px;
-    position: absolute;
 }
 .navbar-toggler-icon{
-    position: absolute;
     outline: none;
     box-shadow: 0 0 5px 1px #8295bd;
     background-color:rgb(36, 25, 25);
@@ -169,12 +165,19 @@ body {
     height: 30px;
     border-radius: 15px;
     text-align: center;
-    margin: 220px 0px 0px 6px;
     font-family: 'Post No Bills Jaffna';
     padding-top: inherit;
 }
 
-                             /* КОНТЕЙНЕР 3  КОЖА */
+                              /* КОНТЕЙНЕР 3. РЕМЕНЬ */
+.belt {
+    margin:  0px 0 90px 0px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+                             /* КОНТЕЙНЕР 4.  КОЖА */
 .kohza {
     margin:  0px 0 90px 0px;
     display: flex;
@@ -187,7 +190,7 @@ body {
     color: #fff;
     font-size: 30px;
     font-family: 'Post No Bills Jaffna' ;
-}                            
+}          
+       
  
                             /* ПОДВАЛ САЙТА FOOTER */
-                            
